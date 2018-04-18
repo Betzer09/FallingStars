@@ -11,6 +11,7 @@ import SpriteKit
 class GameScene: SKScene {
     
     override func didMove(to view: SKView) {
+        self.backgroundColor = UIColor.blue
     }
     
     override func update(_ currentTime: TimeInterval) {
